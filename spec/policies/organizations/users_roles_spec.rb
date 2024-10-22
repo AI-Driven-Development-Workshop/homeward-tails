@@ -11,7 +11,7 @@ RSpec.describe Organizations::UserRolesPolicy, type: :policy do
       let(:user) { nil }
 
       it "returns false" do
-        expect(subject).to eq(false)y
+        expect(subject).to eq(false)
       end
     end
 
