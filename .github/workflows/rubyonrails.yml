@@ -43,6 +43,8 @@ jobs:
       # Add or replace test runners here
       - name: Run Tests
         run: bin/test
+      - name: Run RSpec
+        run: bundle exec rspec
   standard:
     name: Standard
     runs-on: ubuntu-latest
